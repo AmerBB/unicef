@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>Unisef</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" >
+<link rel="stylesheet" href="css/bootstrap.min.css"   type="text/css">
+<link rel="stylesheet" href="css/style.css"   type="text/css">
+</head>
+<body class="rech-contact">
+<div class="globale">
+  <div class="header"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="title-page">
+        <h1>Rechercher un contact</h1>
+      </div>
+      <form class="form-horizontal">
+        <div class=" col-md-4 padd-left">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-ident" name="num-ident" placeholder="Numéro d’identifiant">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="rs" name="rs" placeholder="Raison sociale">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="rs" placeholder="Code postale">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-tel" name="num-tel" placeholder="Numéro de téléphone portable">
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-s" name="num-s" placeholder="Numéro de siret">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="ville" name="ville" placeholder="Ville">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-tel-fixe" name="num-tel-fixe" placeholder="Numéro de téléphone fixe">
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4 padd-right">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="addresse-p" name="addresse-p" placeholder="Adresse postale">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="clearfix"></div>
+      <div class="title-page">
+        <h1>Rechercher par moyen de paiement</h1>
+      </div>
+      <form class="form-horizontal">
+        <div class=" col-md-4 padd-left">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="iban" name="ibns" placeholder="IBAN">
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="date-trans" name="date-trans" placeholder="Date de transaction">
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4 padd-right">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="n" name="num-ident" placeholder="Numéro de chèque
+">
+            </div>
+          </div>
+        </div>
+      </form>
+      
+       <div class="clearfix"></div>
+      <div class="title-page">
+        <h1>Rechercher par référence</h1>
+      </div>
+      <form class="form-horizontal">
+        <div class=" col-md-4 padd-left">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-rf" name="num-rf" placeholder="Numéro RF">
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-trans" name="num-trans" placeholder="Numéro de transaction">
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4 padd-right">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="text" class="form-control" id="num-ref-ext" name="num-ref-ext" placeholder="Numéro de référence externe">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    
+    <div class="container">
+      <div class="title-page">
+        <h1 class="col-sm-8 title-result">Résultat de la recherche</h1>
+        <ul class="bl-right nav-menu col-sm-4">
+                 <li><a href="#0" class="link-part">Particulier</a></li>
+                 <li><a href="#0" class="link-org">Organisation</a></li>
+                 </ul>
+      </div>
+      <div class="clearfix"></div>
+      <form class="form-horizontal">
+        <div class=" col-md-4 padd-left">
+          <div class="form-group">
+            <div class="col-sm-12">              
+              <span class="form-control">ID donateur</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+                <span class="form-control">Adresse postale</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+               <span class="form-control">Adresse email</span>
+            </div>
+          </div>
+          
+        </div>
+        <div class=" col-md-4">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <span class="form-control">Nom</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+               <span class="form-control">Ville</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+          <span class="form-control">Numéro de téléphone portable</span>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4 padd-right">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <span class="form-control">Prénom</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+                   <span class="form-control">Code postal</span>
+            </div>
+          </div>
+          
+        </div>
+      </form>
+       <div class="clearfix"></div>
+      <button class="btn-primary text-center btn-link" ><a href="fiche.html"> Accéder à la fiche contact</a></button>
+      <hr style="height:2em;" />
+      <div class="clearfix"></div>
+     
+      <form class="form-horizontal">
+        <div class=" col-md-4 padd-left">
+          <div class="form-group">
+            <div class="col-sm-12">              
+              <span class="form-control">ID donateur</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+                <span class="form-control">Adresse postale</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+               <span class="form-control">Adresse email</span>
+            </div>
+          </div>
+          
+        </div>
+        <div class=" col-md-4">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <span class="form-control">Nom</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+               <span class="form-control">Ville</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+          <span class="form-control">Numéro de téléphone portable</span>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-4 padd-right">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <span class="form-control">Prénom</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+                   <span class="form-control">Code postal</span>
+            </div>
+          </div>
+          
+        </div>
+      </form>
+      <div class="clearfix"></div>
+      <button class="btn-primary text-center btn-link" ><a href="fiche.html">Accéder à la fiche contact</a></button>
+    </div>
+    
+    <button class="btn-primary text-center btn-back btn-link"><a href="javascript:history.go(-1)" >retour</a></button>
+  </div>
+</div>
+<script>
+(function () {
+    var headers = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
+    for (var i = 0; i < headers.length; i++) {
+        headers[i].setAttribute('data-content', headers[i].innerHTML);
+    }
+})();
+</script>
+</body>
+</html>

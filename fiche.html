@@ -1,0 +1,768 @@
+<html>
+<head>
+<title>Unisef</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" >
+<link rel="stylesheet" href="css/jcf.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+<body>
+<div class="globale page-dons">
+  <div class="header"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></div>
+  <header class="header-inner">
+  <div class="container">
+  <div class="col-md-5 ligne col-xs-12"><h1>NOM PRéNOM <span>ID XXXXXX</span></h1></div>
+  <div class="col-md-3 ligne linge0 col-xs-12"><a href="fiche.html">Créer une demande</a></div>
+  <div class="col-md-3  ligne text-right col-xs-12"><a href="contact.html" >Rechercher un contact</a></div>
+  </div>
+  </header>
+  <div class="container">
+     
+    
+    <div id="tabs">
+      <ul>
+        <li class="tab-1"> <a href="#a"></a> </li>
+        <li class="tab-2"> <a href="#b"></a> </li>
+        <li class="tab-3 "> <a href="#c"></a> </li>
+        <li class="tab-4"> <a href="#d"></a> </li>
+      </ul>
+      <div id="a">
+      
+        <form class="form-profil">
+          <div>
+            <div class="head-block"> <strong>Profil</strong> <span></span> <a href=""></a> </div>
+            <div class="content-profil">
+              <div class="table profil">
+                <div>
+                  <div class="civilite">
+                    <label>Civilité</label>
+                      <label class="inline">
+                        <input type="radio" name="civilite" value="Madame"> Madame 
+                      </label>
+                    <label class="inline civi-mr" >
+                      <input type="radio" name="civilite" value="Madame"> Monsieur
+                    </label> </div>
+                  <div class="nth-child-2">
+                    <label>Date de naissance</label>
+                    <input type="text" name="day" class="day" placeholder="JJ">
+                    <input type="text" name="month" class="month" placeholder="MM">
+                    <input type="text" name="year" class="year" placeholder="AAAA">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label>Nom</label>
+                    <input type="text" name="nom" class="nom" placeholder="xxxxxx">
+                  </div>
+                  <div class="nth-child-2">
+                    <label>Prénom</label>
+                    <input type="text" name="prenom" class="prenom" placeholder="xxxxxxxxx">
+                  </div>
+                </div>
+                <div>
+                    <div>
+                      <label>Email</label>
+                      <input type="text" name="email" class="email" placeholder="xxxxxxxxx@xxxx.xx">
+                    </div>
+                    <div class="nth-child-2">
+                      <label>Téléphone</label>
+                      <input type="text" name="telephone" class="telephone" placeholder="xxxxxxxxxx">
+                    </div>
+                  </div>
+                  <div>
+                      <div>
+                        <label>Adresse</label>
+                        <input type="text" name="adresse" class="adresse" placeholder="xx xxxxxxxxxxxx xxxxx xxxxxxxxxxxxx">
+                      </div>
+                      <div class="nth-child-2">
+                        <label>Complément d’adresse</label>
+                        <input type="text" name="complement-adresse" class="complement-adresse" placeholder="xxxxxxxxx">
+                      </div>
+                  </div>
+                   <div>
+                      <div>
+                        <label>Code postal</label>
+                        <input type="text" name="codepostal" class="codepostal" placeholder="xxxxxx">
+                      </div>
+                      <div class="nth-child-2">
+                        <label>Ville</label>
+                        <input type="text" name="villee" class="ville" placeholder="xxxxxxxxxx">
+                      </div>
+                  </div>  
+              </div>
+               <div class="decede-adresse">
+                  <label class="inline">
+                    <input type="radio" name="decede-adresse" value="Décédé">  Décédé
+                  </label> 
+                  <label class="inline nth2">
+                    <input type="radio" name="decede-adresse"  value="Adresse"> Adresse
+                  </label>
+                  <label class="inline nth3">
+                    <input type="checkbox" name="recu-fiscal"  value="oui"> Ne plus envoyer de reçu fiscal pour toute l’année
+                  </label>
+              </div>
+            </div>
+          </div> 
+          <div>
+            <div class="head-block"> <strong>Informations</strong> <span></span> <a href=""></a> </div>
+            <div class="content-information">
+              <div class="newslatter">
+                <label>Abonnement à la newsletter :</label>
+                <p>
+                  <label class="inline choix-oui">
+                    <input type="radio" name="nwl" value="Oui"> Oui 
+                  </label>
+                  <label class="inline nwl-non">
+                    <input type="radio" name="nwl"  value="Non"> Non
+                  </label> 
+                  </p>
+              </div>
+              <div class="information-contact">
+                <label>Mode de contact à privilégier :</label>
+                <p>
+                  <label class="inline">
+                    <input type="radio" name="contact" value="Téléphone"> Téléphone
+                  </label>
+                  <label class="inline">
+                    <input type="radio" name="contact" value="Sms"> Sms
+                  </label>
+                  <label class="inline">
+                    <input type="radio" name="contact" value="Email"> Email 
+                  </label>
+                </p>
+              </div>
+              <div>
+                <label>Informations supplémentaires</label>
+                <div class="info-sup jcf-scrollable"> This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="b" class="donnees"> 
+        <h2>Sollicitations <br>reçues</h2>
+        <div class="table">
+          <div>
+            <div class="item-1">
+              <p>Nombre total <br>
+                d’interactions</p>
+              <span>19</span> </div>
+            <div class="item-2">
+              <p>Réactions<br>
+                positives</p>
+              <span>8</span> </div>
+            <div class="item-3">
+              <p>Réactions<br>
+                négatives</p>
+              <span>11</span> </div>
+          </div>
+        </div>
+        <table  border="0" cellspacing="5" class="th-table">
+          <thead>
+            <tr>
+              <th>Sollicitations reçues</th>
+              <th class="nth-2">Date</th>
+              <th class="nth-3">Réactions</th>
+            </tr>
+          </thead>
+        </table>
+        <div class="info-sup jcf-scrollable">
+          <table  border="0" cellspacing="5">
+            <tbody >
+              <tr>
+                <td>Nom de la campagne </td>
+                <td class="nth-2">xx/xx/xxxx</td>
+                <td class="nth-3 red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Echec livraison</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Clic</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Participation</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Don</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Echec livraison</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Don</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Abonnement</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Abonnement</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Réponse</td>
+              </tr> 
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Ouverture</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Don</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Echec livraison</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Clic</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Participation</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Don</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Don</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Abonnement</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Abonnement</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Réponse</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">Non ouvert</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Ouverture</td>
+              </tr>
+              <tr>
+                <td>Nom de la campagne <span class="text-2">- média de diffusion</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">Don</td>
+              </tr>
+            </tbody>
+          </table> 
+        </div>
+        <a href="" class="load-more">Charger plus de dons</a> 
+      </div>
+      <div id="c" class="donnees"> 
+        <div class="add-dons" style="display: none;">
+          <form action="" method="">
+            <h2>Versement de <span>Mme Xxxxxx Xxxxxxxxx</span></h2>
+            <div class="table">
+              <div>
+                <div>
+                    <label>Date de déclaration</label>
+                    <input type="text" name="day" class="jour" placeholder="JJ">
+                    <input type="text" name="month" class="mois" placeholder="MM">
+                    <input type="text" name="year" class="annee" placeholder="AAAA">
+                </div>
+                <div class="nth-child-2">
+                  
+                </div>
+              </div>
+              <div>
+                <div>
+                     <label>Offre</label>
+                     <select name="offre">
+                       <option value="">Offre</option> 
+                     </select>
+                </div>
+                <div class="nth-child-2">
+                     <label>Mode de paiement</label>
+                     <select name="mode-paiement">
+                       <option value="">Mode de paiement</option> 
+                     </select>
+                </div>
+              </div>
+              <div>
+                <div>
+                      <label>Banque du comité</label>
+                     <select name="banque-comite">
+                       <option value="">Banque du comité</option> 
+                     </select>
+                </div>
+                <div class="nth-child-2 ckeckboxs"> 
+                    <label class="ckeckbox">
+                      <input type="checkbox" name="sur-place"> Sur place
+                    </label>
+                    <label class="ckeckbox">
+                      <input type="checkbox" name="versement-sans-recu"> Versement sans reçu
+                    </label>
+                    <label class="ckeckbox">
+                      <input type="checkbox" name="Recu-annuel"> Reçu annuel
+                    </label>
+                </div>
+              </div>
+            </div>
+            <div class="montant">
+              <label>Montant du don en euros</label>
+              <input type="text" name="montant" placeholder="Montant du don en Euros">
+            </div>
+            <div class="btns-form"> 
+             <button type="submit">
+               Valider le Bon
+             </button>
+             <a href="#" class="retour">Retour</a>
+            </div>
+          </form>
+        </div>
+        <div class="liste-dons" >
+          <div class="table" >
+          <div>
+            <div class="item-1">
+              <p>Total des<br>
+                donations</p>
+              <span>3067 €</span> </div>
+            <div class="item-2">
+              <p><strong>Don</strong><br>
+                moyen</p>
+              <span>175€</span> </div>
+          </div>
+        </div>
+        <table class="liste"  border="0" cellspacing="5">
+          <thead>
+            <tr>
+              <th>Historique <span>des transactions</span></th>
+              <th class="nth-2">Date</th>
+              <th class="nth-3">Etat</th>
+              <th style="width: 40px;"></th>
+            </tr>
+          </thead>
+        </table>
+        <div class="info-sup">
+          <table  border="0" cellspacing="5">
+            <tbody>
+              <tr>
+                <td><span class="text-1">Virement - XXXXXXXXXX</span> <span class="text-2">Montant : XX €</span></td>
+                <td class="nth-2" >xx/xx/xxxx</td>
+                <td class="nth-3 blue">En traitement</td>
+                <td><img src="images/traitement.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">Chèque - XXXXXXXX</span> <span class="text-2">Montant : XXX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="blue">En traitement</td>
+                <td><img src="images/traitement.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="red">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/refese.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr>
+              <tr>
+                <td><span class="text-1">XXXXX - xxxxxx xxxx</span> <span class="text-2">Montant : XX €</span></td>
+                <td>xx/xx/xxxx</td>
+                <td class="green">xxxxxxxxxxxxxxxx</td>
+                <td><img src="images/valide.jpg"></td>
+              </tr> 
+            </tbody>
+          </table>
+        </div>
+        <a href="" class="load-more">Charger plus de dons</a> 
+        <a href="" class="add-don">Ajouter un don</a> 
+        </div>
+      </div> 
+
+
+
+<div id="d" class="donnees table-demande"> 
+        <div class="add-dons" style="display: none;">
+          <div class="table" >
+          <div>
+          <h2>Demandes</h2>
+           
+           <ul class="list-inline">
+             
+             <li><span class="icon-r"></span>Trés urgent</li>
+             <li><span class="icon-o"></span>Urgent</li>
+             <li><span class="icon-v"></span>Moins urgent</li>
+           </ul>
+
+           <ul class="list-inline text-center">
+             
+             <li><select class="classic select-filter">
+              <option>filtrer par catégorie</option>
+              <option>Categorie1</option>
+              <option>Categorie2</option>
+              </select></li>
+             <li class="li-reset"><span class="icon-reset"></span>Réinitialiser</li>
+           </ul>
+
+          </div>
+        </div>
+        <table class="liste"  border="0" cellspacing="5">
+          <thead>
+            <tr>
+              <th>Numéro de demande</th>
+              <th class="nth-2">ID donateur</th>
+              <th class="nth-3">Date de création</th>
+              <th class="nth-3">Objet de la demande</th>
+              <th class="nth-3">NOM Prénom</th>
+              <th class="nth-3">Catégorie</th>
+              <th style="width: 40px;"></th>
+            </tr>
+          </thead>
+            <tbody>
+                
+              <tr>
+                <td><span class="text-1">Demande n°XX</td>
+                <td class="" >xxxxxxxx</td>
+                <td class=" ">xx/xx/xxxx</td>
+                <td class="nth3">Objet objet objet objet objet objet objet...</td>
+                <td class="nth4">NOM Prénom</td>
+                <td class=" ">xxxxxxxx</td>
+                <td class="status"><span class="icon-r"></span></td>
+              </tr>
+
+               <tr>
+                <td><span class="text-1">Demande n°XX</td>
+                <td class="" >xxxxxxxx</td>
+                <td class=" ">xx/xx/xxxx</td>
+                <td class="nth3">Objet objet objet objet objet objet objet...</td>
+                <td class="nth4">NOM Prénom</td>
+                <td class=" ">xxxxxxxx</td>
+                <td class="status"><span class="icon-r"></span></td>
+              </tr>
+
+               <tr>
+                <td><span class="text-1">Demande n°XX</td>
+                <td class="" >xxxxxxxx</td>
+                <td class=" ">xx/xx/xxxx</td>
+                <td class="nth3">Objet objet objet objet objet objet objet...</td>
+                <td class="nth4">NOM Prénom</td>
+                <td class=" ">xxxxxxxx</td>
+                <td class="status"><span class="icon-o"></span></td>
+              </tr>
+
+               <tr>
+                <td><span class="text-1">Demande n°XX</td>
+                <td class="" >xxxxxxxx</td>
+                <td class=" ">xx/xx/xxxx</td>
+                <td class="nth3">Objet objet objet objet objet objet objet...</td>
+                <td class="nth4">NOM Prénom</td>
+                <td class=" ">xxxxxxxx</td>
+                <td class="status"><span class="icon-v"></span></td>
+              </tr>
+               
+            </tbody>
+        </table>
+
+
+        
+        </div>
+        <div class="liste-dons" >
+
+
+         <form class="form-horizontal form-fiche">
+         <h5 class="text-center">DEMANDE N°XX</h5>
+         <div class="pull-right select-header">
+          <select class="classic">
+              <option>Très urgent</option>
+              <option>Très urgent 1</option>
+              <option>Très urgent2</option>
+              </select>
+              </div>
+        <div class=" col-md-4">
+          <div class="form-group">
+            
+                <label>Demande créée par</label>
+              <input type="text" class="form-control" id="demande" name="demande" placeholder="XXXXXXXX Xxxxxxxxxxxx">
+        
+          </div>
+          <div class="form-group">
+            <label>Nom du donateur</label>
+              <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
+            </div>
+         
+          <div class="form-group">
+          
+            <label>Délai de traitement</label>
+              <select class="classic">
+              <option>Délai H</option>
+              <option>Délai M</option>
+              <option>Délai A</option>
+              <option>Délai C</option>
+              </select>
+            </div>
+      
+
+          <div class="form-group">
+            <label>Canal de sortie de réponse</label>
+              <select class="classic">
+              <option>Nom</option>
+              <option>Nom1</option>
+              <option>Nom2</option>
+              </select>
+            </div>
+    
+
+          <div class="form-group">
+            <label>Téléphone</label>
+              <input type="text" class="form-control" id="num-tel" name="num-tel" placeholder="0123456789">
+            </div>
+   
+        </div>
+        <div class=" col-md-4">
+         <div class="form-group">
+            <label>Statut</label>
+              <select class="classic">
+              <option>Choix statut</option>
+              <option>Statut1</option>
+              <option>Statut2</option>
+              </select>
+            </div>
+         
+          <div class="form-group">
+            <label>Prénom du donateur</label>
+              <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prénom">
+            </div>
+      
+          <div class="form-group">
+            <label>Délégué à</label>
+              <input type="text" class="form-control" id="delegue" name="delegue" placeholder="Nom">
+            </div>
+    
+          <div class="form-group">
+                <label>Date de création</label>
+              <input type="text" class="form-control" id="date_creat" name="date_creat" placeholder="Date">
+         
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+              <input type="text" class="form-control" id="email" name="email" placeholder="adresse-email@email.fr">
+              </div>
+        </div>
+        <div class=" col-md-4 ">
+          <div class="form-group">
+            <label>Objet de la demande</label>
+              <input type="text" class="form-control" id="objet" name="objet" placeholder="Objet">
+            </div>
+      
+
+            <div class="form-group">
+            <label>Catégorie</label>
+              <select class="classic">
+              <option>Catégorie1</option>
+              <option>Catégorie2</option>
+              <option>Catégorie3</option>
+              </select>
+       
+          </div>
+
+          <div class="form-group">
+            <label>Donateur</label>
+              <select class="classic">
+              <option>Donateur1</option>
+              <option>Donateur2</option>
+              <option>Donateur3</option>
+              </select>
+            
+          </div>
+
+
+          <div class="form-group">
+            <label>Dernière date de modification</label>
+              <input type="text" class="form-control" id="date_d" name="date_d" placeholder="Date">
+            </div>
+       
+
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 commentss">
+          
+            <div class="form-group">
+            <label>Commentaire</label>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Rédigez un commentaire"></textarea>
+            <button type="submit" class="btn-primary text-center btn-link pull-right btn-submit">Ajouter un commentaire</button>
+          
+            </div>
+        </div>
+        <div class="col-md-10 comments marg-b">
+            <div class="items-comment">
+              <h5>NOM Prénom</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <h6 class="text-right">Le xx/xx à 00:00</h6>
+            
+          </div>
+          <div class="col-md-10  comment-r marg-b">
+            <div class="items-comment">
+              <h5>NOM Prénom</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <h6>Le xx/xx à 00:00</h6>
+          </div>
+          <div class="clearfix"></div>
+          <ul class="list-inline text-center">
+            <li><button type="submit" class="btn-primary text-center  btn-form btn-back0">Retour</button></li>
+            <li><button type="submit" class="btn-primary text-center  btn-form btn-valid">Valider</button></li>
+          </ul>
+
+        </form>
+
+
+
+
+
+
+
+          
+    
+       
+        </div>
+      </div> 
+
+
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+<script src="js/jquery.js"></script> 
+<script src="js/jquery.ui.js"></script> 
+<script src="js/jcf.js"></script> 
+<script src="js/jcf.radio.js"></script> 
+<script src="js/jcf.checkbox.js"></script> 
+<script src="js/jcf.scrollable.js"></script> 
+<script>
+ 
+  $(function() {
+    jcf.replaceAll();
+  });
+  
+</script> 
+<script src="js/script.js"></script>
+</body>
+</html>
